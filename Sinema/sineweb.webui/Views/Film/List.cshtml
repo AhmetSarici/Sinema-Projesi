@@ -1,0 +1,31 @@
+@model FilmViewModel
+
+@{
+    Layout="_Layout2";
+}
+
+@{
+    var popularClass = Model.Filmler.Count>2? "popular":"";
+    var filmler = Model.Filmler;
+}
+
+@section Salonlar
+{
+    @await Component.InvokeAsync("Salonlar")
+}
+
+@if(filmler.Count == 0)
+{
+    @await Html.PartialAsync("_nofilm")
+}
+else
+{
+    <div class="row">                  
+        @foreach (var film in filmler)
+        {    
+            <div class="col-md-3">
+                @await Html.PartialAsync("_film", film)   
+        </div>       
+        }   
+    </div>
+}
