@@ -83,7 +83,6 @@ C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.
 C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
 C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.0\Razor\Views\Home\MyView.cshtml.g.cs
-C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.0\Razor\Views\Shared\Components\Categories\Default.cshtml.g.cs
 C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.0\Razor\Views\Shared\_film.cshtml.g.cs
 C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.0\Razor\Views\Shared\_header.cshtml.g.cs
 C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -102,3 +101,4 @@ C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.
 C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.0\sineweb.webui.genruntimeconfig.cache
 C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.0\sineweb.webui.csproj.CopyComplete
 C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.0\staticwebassets\sineweb.webui.StaticWebAssets.xml
+C:\Users\ahmet\OneDrive\Masaüstü\B39\Sine\Sinema\sineweb.webui\obj\Debug\net5.0\Razor\Views\Shared\Components\Salonlar\Default.cshtml.g.cs

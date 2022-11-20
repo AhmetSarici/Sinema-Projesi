@@ -1,10 +1,9 @@
-using sineweb.webui.Models;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace sineweb.webui.Data
 {
-    public static class SalonRepository
+    public class SalonRepository
     {
         private static List<Salon> _salonlar = null;
 
