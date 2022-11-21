@@ -7,15 +7,57 @@
     <title>Document</title>
 </head>
 <body style="background-color: yellow;">
+ @if(IsSectionDefined("MessageBox"))
+    {
+         @RenderSection("MessageBox")
+    }
+    else
+    {
+        <div class="alert alert-primary text-center m-0">
+            Film Detaya Hoş Geldiniz!
+        </div>
+    }
 
-    @await Html.PartialAsync("_navbar")
-    <partial name="_header">
+     @await Html.PartialAsync("_navbar")
 
-    <main>
-        <div class="container">            
-            @RenderBody()
+
+ 
+    
+       
+     <main class="mb-3">
+        <div class="container"> 
+
+            @if(IsSectionDefined("Salonlar"))
+            {
+                <div class="row">
+                    <div class="col-md-3">
+                        @RenderSection("Salonlar", false)
+                    </div>
+                    <div class="col-md-9">
+                        @RenderBody()
+                    </div>
+                </div>
+            }   
+            else
+            {
+                 <div class="row">
+                    <div class="col-md-12">
+                        @RenderBody()
+                    </div>
+                 </div>   
+            }
+            
         </div>
     </main>
-    
+
+    <footer class="py-5 bg-dark text-white text-center">
+        SineFilm | 2022
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    @RenderSection("Scripts",false)
+
+
 </body>
 </html>
